@@ -1,5 +1,5 @@
 {
-  "name" : "pierrecabriere/notifications",
+  "name" : "pierrecabriere/notifications-bundle",
   "description" : "Notifications Bundle",
   "type" : "symfony-bundle",
   "authors" : [{
