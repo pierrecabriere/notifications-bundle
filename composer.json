@@ -1,9 +1,9 @@
 {
-  "name" : "pierrecabriere/notifications-bundle",
+  "name" : "pierrecabriere/notifications",
   "description" : "Notifications Bundle",
   "type" : "symfony-bundle",
   "authors" : [{
-    "name" : "Notifications",
+    "name" : "Pierre Cabriere",
     "email" : "hello@pierrecabriere.fr"
   }],
   "keywords" : [
@@ -22,8 +22,8 @@
     }
   },
   "target-dir" : "Pierrecabriere/NotificationsBundle",
-  "repositories" : [{
-  }],
+  "repositories": [
+  ],
   "extra" : {
     "branch-alias" : {
       "dev-master" : "0.0.1"
