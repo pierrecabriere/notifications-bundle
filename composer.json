@@ -1,5 +1,5 @@
 {
-  "name" : "pierrecabriere/notificationsbundle",
+  "name" : "pierrecabriere/notifications-bundle",
   "description" : "Notifications Bundle",
   "type" : "symfony-bundle",
   "authors" : [{
@@ -12,6 +12,9 @@
     "MIT"
   ],
   "require" : {
+    "php": ">=5.5.9",
+    "symfony/framework-bundle": "~3.0",
+    "gos/web-socket-bundle": "~1.8"
   },
   "autoload" : {
     "psr-0" : {
