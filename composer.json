@@ -1,9 +1,9 @@
 {
-  "name" : "pierrecabriere/notifications",
+  "name" : "pierrecabriere/notificationsbundle",
   "description" : "Notifications Bundle",
   "type" : "symfony-bundle",
   "authors" : [{
-    "name" : "Pierre Cabriere",
+    "name" : "Notifications",
     "email" : "hello@pierrecabriere.fr"
   }],
   "keywords" : [
@@ -12,9 +12,6 @@
     "MIT"
   ],
   "require" : {
-    "php": ">=5.5.9",
-    "symfony/framework-bundle": "~3.0",
-    "gos/web-socket-bundle": "~1.8"
   },
   "autoload" : {
     "psr-0" : {
@@ -22,8 +19,8 @@
     }
   },
   "target-dir" : "Pierrecabriere/NotificationsBundle",
-  "repositories": [
-  ],
+  "repositories" : [{
+  }],
   "extra" : {
     "branch-alias" : {
       "dev-master" : "0.0.1"
