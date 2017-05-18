@@ -1,0 +1,9 @@
+{% extends "NotificationsBundle:Templates:account_update.html.twig" %}
+
+{% block title %}Compte mis à jour{% endblock %}
+
+{% block time %}{{ notification.createdAt|ago }}{% endblock %}
+
+{% block message %}
+    Votre nouvelle adresse email <b>{{ notification.arguments.email_new }}</b> a bien mise à jour.
+{% endblock %}

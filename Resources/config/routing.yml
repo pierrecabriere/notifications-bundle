@@ -1,0 +1,4 @@
+app.notifications:
+    path: /
+    defaults:
+        _controller: NotificationsBundle:Default:index

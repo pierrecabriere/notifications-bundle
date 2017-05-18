@@ -1,0 +1,4 @@
+app.topic.notifications:
+    channel: /{user}/notifications
+    handler:
+        callback: 'app.topic.notifications'

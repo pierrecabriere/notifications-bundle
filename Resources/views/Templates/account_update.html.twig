@@ -1,0 +1,17 @@
+<li class="media">
+    <div class="media-left">
+        <a href="#" class="btn border-primary text-primary btn-flat btn-rounded btn-icon btn-sm">
+            <i class="icon-git-pull-request"></i>
+        </a>
+    </div>
+    <div class="media-body">
+        <a href="#" class="media-heading">
+            <span class="text-semibold">{% block title %}{% endblock %}</span>
+            <span class="media-annotation pull-right">{% block time %}{% endblock %}</span>
+        </a>
+
+        <span class="text-muted">
+            {% block message %}{% endblock %}
+        </span>
+    </div>
+</li>

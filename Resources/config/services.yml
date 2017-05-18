@@ -1,0 +1,18 @@
+services:
+    app.topic.notifications:
+        class: NotificationsBundle\Topic\NotificationsTopic
+        arguments: ['@gos_web_socket.websocket.client_manipulator']
+        tags:
+            - { name: gos_web_socket.topic }
+
+    app.notifications_manager:
+        class: NotificationsBundle\Model\NotificationsManager
+        arguments: ['@app.pusher', '@fos_user.user_manager', '@security.token_storage', '@doctrine.orm.entity_manager']
+
+
+    app.doctrine.notifications_listener:
+        class: NotificationsBundle\Doctrine\NotificationListener
+        autowire: true
+        arguments: ['@service_container']
+        tags:
+            - { name: doctrine.event_subscriber }
