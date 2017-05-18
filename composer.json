@@ -20,10 +20,5 @@
   },
   "target-dir" : "Pierrecabriere/NotificationsBundle",
   "repositories" : [{
-  }],
-  "extra" : {
-    "branch-alias" : {
-      "dev-master" : "0.0.1"
-    }
-  }
+  }]
 }
