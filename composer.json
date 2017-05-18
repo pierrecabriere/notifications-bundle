@@ -1,9 +1,9 @@
 {
-  "name" : "pierrecabriere/notificationsbundle",
+  "name" : "pierrecabriere/notifications",
   "description" : "Notifications Bundle",
   "type" : "symfony-bundle",
   "authors" : [{
-    "name" : "Notifications",
+    "name" : "Pierre Cabrière",
     "email" : "hello@pierrecabriere.fr"
   }],
   "keywords" : [
