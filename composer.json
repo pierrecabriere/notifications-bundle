@@ -12,6 +12,9 @@
     "MIT"
   ],
   "require" : {
+    "php": ">=5.5.9",
+    "gos/web-socket-bundle": "^1.8",
+    "knplabs/knp-time-bundle": "^1.7"
   },
   "repositories" : [{
   }]
