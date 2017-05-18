@@ -1,0 +1,29 @@
+{
+  "name" : "pierrecabriere/notificationsbundle",
+  "description" : "Notifications Bundle",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Notifications",
+    "email" : "hello@pierrecabriere.fr"
+  }],
+  "keywords" : [
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-0" : {
+      "Pierrecabriere\\NotificationsBundle" : ""
+    }
+  },
+  "target-dir" : "Pierrecabriere/NotificationsBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "0.0.1"
+    }
+  }
+}
